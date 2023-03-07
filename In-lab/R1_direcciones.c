@@ -14,7 +14,7 @@ int main()
     int* pInt = &intVar1;
     printf( "(3) El valor de pInt es: %p, su dirección es: %p, y el valor al que apunta es: %d\n", pInt, &pInt, *pInt );
     int* pInt2 = 0;
-    printf( "(X) La dir de pint2 es: %p\n", &pInt2 );
+    printf( "(X) La dir de pInt2 es: %p\n", &pInt2 );
     pInt = &intVar2;
     printf( "(4) El valor de pInt es: %p, su dirección es: %p, y el valor al que apunta es: %d\n", pInt, &pInt, *pInt );
     CambiaValorPorReferencia( &intVar1 );

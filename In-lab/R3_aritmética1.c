@@ -11,7 +11,7 @@ int main()
     printf( "====\n" );
     for( size_t i = 0; i < TAM; ++i ){
         *p = i;
-        printf( " El valor arreglo[%ld] es: %d, y su dirección es: %p\n", i, arreglo[i],
+        printf( "El valor arreglo[%ld] es: %d, y su dirección es: %p\n", i, arreglo[i],
         &arreglo[i] );
         printf( "El valor al que apunta p es: %d, y su valor es: %p\n", *p, p );
         printf( "====\n" );
